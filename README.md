@@ -26,6 +26,7 @@ This is my local git playground. Maybe I'll push it to github, maybe not...
 16:46 | I successfully added and committed the changes and checked the result of `git branch --merged` it acknowledged how I tried to merge `ancient-branch` to `markdown` doing another commit locally before pushing this to remote origin.
 18:24 | Apparently, there is `markdown` and there is `origin/markdown` and I am presumably editing this in the latter because I'm in the web browser. Making changes here then doing the `git fetch origin` in my local terminal to see if it will reflect in the `origin/head` branch.
 18:41 | I've just completed the merge of `origin/markdown` to `markdown` then I'm pushing this one to the remote repo again.
+18:48 | I just deleted the `markdown` branch then `git fetch origin` then checked if the branch I deleted got fetched, it didn't. I then did what github says entering `git checkout -b origin/markdown` so naturally it created a `markdown` branch which it says it's set up to track remote branch `markdown` from `origin`. I'm wondering if this is also the case from before I deleted the `markdown` branch since I pushed the entire branch from local machine and it automatically created a pull request. A merge with origin/master is imminent.
 
 ---
 ###### Here Lies The Remains of README.md From `ancient-branch` Now Gone
