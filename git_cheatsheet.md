@@ -41,25 +41,25 @@
 `git remote -v` lists infor about the repo  
 `git branch -a` lists all of the branches  
   
-#### View Changes
+#### Viewing Changes
 `git diff` shows the difference made in the files  
 	  
+#### First time push of the branch
+`git push -u origin <name of the branch>` -u coordinates the two branches (local and on server) and is shorthand for `--set-upstream`  
+
 #### Pulling from Master Branch on Origin
 `git pull origin master` the word origin is specified in `./.git/config` can be another name of your choosing. For posterity, origin is used. **Keep a habit of pulling before pushing**
 	  
-#### THEN PUSH
-`git push origin master` <origin> name of remote repo <master> the branch that we push to   
-	  
-#### First time push of the branch
-`git push -u origin <name of the branch>` -u coordinates the two branches (local and on server)  
-	  
-#### Create a branch
+#### Pushing from Local to Remote
+`git push origin master` <origin\> is the name of remote repo, <master\> is the branch that we push to    
+
+#### Creating a Branch
 `git branch <name of the branch>`  
   
-#### Checkout a branch
+#### Switching to Another Branch
 `git checkout <name of the branch>`  
   
-#### Merge a branch
+#### Merging a Branch
 `git checkout master`  
 `git pull origin master`  
 `git branch --merged` see which branches are merged   

@@ -22,3 +22,10 @@ This is my local git playground. Maybe I'll push it to github, maybe not...
 | 13:22 | If I push this to remote on another branch, changes will _not immediately_ reflect the README.md on my repo home... right? By the way I'm using `git push origin markdown` to push this to github. Not sure if this will work, honestly. |
 | 15:35 | Just did that push and it did make another branch but also created a pull request saying how **I, the guy who made a pull request,** immediately wanted the branch to get merged with master. Next thing I'm going to check is what will happen if I straight up do another commit and push to the created markdown branch.
 | 16:13 | Overhauled the git cheatsheet file and made it a markdown file with proper formatting and this is the part where I do the push these changes to the markdown branch after having specified the upstream branch to be `origin markdown` |
+16:38 | I am trying to merge an old branch I renamed to `ancient-branch` to this current  `markdown` branch and it can't comprehend the differences between those because I've added a lot of shit here since so I'm deleting the <<<< HEAD up top and the ==== below this one retaining the "This is an ancient version of README.md" which I added while I was in the `ancient-branch` branch.
+
+---
+###### Here Lies The Remains of README.md From `ancient-branch` Now Gone
+    This is my local git playground. Maybe I'll push it to github, maybe not.
+
+    This is an ancient version of README.md
