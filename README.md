@@ -6,7 +6,6 @@ This is my local git playground. Maybe I'll push it to github, maybe not...
 
 ## Adventure Log
 ### 11-Oct-2020
-
 | Time  |   Description |
 | --- | --- |
 | 16:35 |   This file is created in github. Checking if this will successfully get pulled to my local repo. |
@@ -27,9 +26,10 @@ This is my local git playground. Maybe I'll push it to github, maybe not...
 18:24 | Apparently, there is `markdown` and there is `origin/markdown` and I am presumably editing this in the latter because I'm in the web browser. Making changes here then doing the `git fetch origin` in my local terminal to see if it will reflect in the `origin/head` branch.
 18:41 | I've just completed the merge of `origin/markdown` to `markdown` then I'm pushing this one to the remote repo again.
 18:48 | I just deleted the `markdown` branch then `git fetch origin` then checked if the branch I deleted got fetched, it didn't. I then did what github says entering `git checkout -b origin/markdown` so naturally it created a `markdown` branch which it says it's set up to track remote branch `markdown` from `origin`. I'm wondering if this is also the case from before I deleted the `markdown` branch since I pushed the entire branch from local machine and it automatically created a pull request. A merge with origin/master is imminent.
+18:58 | Just did a manual conflict resolution between the very old `master` README.md and the `markdown` one. I'm now following github's instructions of _first_ merging `master` to `markdown` _then_ checking out `master` then doing a `git merge --no-ff markdown` before finally `git push origin master`
 
 ---
-###### Here Lies The Remains of README.md From `ancient-branch` Now Gone
+###### Here Lies The Remains of README.md From `ancient-branch`
     This is my local git playground. Maybe I'll push it to github, maybe not.
 
     This is an ancient version of README.md
