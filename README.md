@@ -25,6 +25,7 @@ This is my local git playground. Maybe I'll push it to github, maybe not...
 16:38 | I am trying to merge an old branch I renamed to `ancient-branch` to this current  `markdown` branch and it can't comprehend the differences between those because I've added a lot of shit here since so I'm deleting the <<<< HEAD up top and the ==== below this one retaining the "This is an ancient version of README.md" which I added while I was in the `ancient-branch` branch.
 16:46 | I successfully added and committed the changes and checked the result of `git branch --merged` it acknowledged how I tried to merge `ancient-branch` to `markdown` doing another commit locally before pushing this to remote origin.
 18:24 | Apparently, there is `markdown` and there is `origin/markdown` and I am presumably editing this in the latter because I'm in the web browser. Making changes here then doing the `git fetch origin` in my local terminal to see if it will reflect in the `origin/head` branch.
+18:41 | I've just completed the merge of `origin/markdown` to `markdown` then I'm pushing this one to the remote repo again.
 
 ---
 ###### Here Lies The Remains of README.md From `ancient-branch` Now Gone
